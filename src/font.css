@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Hillbear';
+    src: url('./assets/Fonts/Hillbear-nRR4J.otf') format('opentype');
+  }
+
+.font-hillbear {
+    font-family: 'Hillbear', sans-serif;
+  }
+
+  /* @font-face {
+    font-family: 'ManhattanDarlingExtras';
+    src: url('./assets/Fonts/ManhattanDarlingExtras.otf') format('opentype'),
+         url('./assets/Fonts/ManhattanDarlingExtras.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'ManhattanDarling';
+    src: url('./assets/Fonts/ManhattanDarling-Regular.otf') format('opentype'),
+         url('./assets/Fonts/ManhattanDarling-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'ValenciaScript';
+    src: url('./assets/Fonts/Valencia Script.otf') format('opentype'),
+         url('./assets/Fonts/Valencia Script.ttf') format('truetype'); */
+  /* } */
+  

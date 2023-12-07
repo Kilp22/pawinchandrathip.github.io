@@ -1,0 +1,11 @@
+@keyframes moveUp {
+    0% {
+      transform: translateY(20px); /* Start from 20px below */
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
