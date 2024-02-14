@@ -12,7 +12,7 @@ const Footer = () => {
           </li>
           <li>
             <i></i> Email:{" "}
-            <a href="mailto:info@synclingo360.com">pawin1110@gmail.com</a>
+            <a href="mailto:pawin1110@gmail.com">pawin1110@gmail.com</a>
           </li>
           {/* <li>
             <i></i> Tel:&nbsp;<a href="tel:447875727734">+44 7875 727734</a>
