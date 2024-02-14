@@ -12,9 +12,9 @@ import VideoSection from "./components/VideoSection";
 const App = () => {
   const contactRef = useRef(null);
 
-  const scrollToContact = () => {
-    contactRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
+  // const scrollToContact = () => {
+  //   contactRef.current.scrollIntoView({ behavior: 'smooth' });
+  // };
 
   return (
     <div className="bg-teal-600 text-white">
@@ -30,7 +30,7 @@ const App = () => {
       <Footer />
 
       {/* Floating Button */}
-      <button
+      {/* <button
         onClick={scrollToContact}
         style={{
           position: 'fixed',
@@ -41,7 +41,7 @@ const App = () => {
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
         To Contact
-      </button>
+      </button> */}
     </div>
   );
 }
