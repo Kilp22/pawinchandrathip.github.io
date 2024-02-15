@@ -24,6 +24,11 @@ import character7 from '../assets/Voiceover_Showcase/Rumpelstiltskin_Cropped.web
 
 import logo1 from '../assets/Logo_Clients/Swarovski.webp'
 import logo2 from '../assets/Logo_Clients/infosec-logo.webp'
+import logo3 from '../assets/Logo_Clients/SinoTruk-Logo.webp'
+import logo4 from '../assets/Logo_Clients/IMCA-logo.webp'
+import logo5 from '../assets/Logo_Clients/panasonic_connect_logo.webp'
+
+import WBlank from '../assets/Logo_Clients/Blank-rectangle.webp'
 
 // Services Image imports
 
@@ -247,46 +252,49 @@ const videoUrls = [
     description: 'Bedtime Story - Rumplestiltskin - Full',
     videoUrl: 'https://www.youtube.com/embed/Utn0SAXbTl8'
   },
-  // {
-  //   name: 'Video 4',
-  //   description: 'Video 4 description',
-  //   videoUrl: 'https://player.vimeo.com/video/80943193?h=d96b07c0f4&title=0&byline=0&portrait=0'
-  // },
+  {
+    name: 'Video 4',
+    description: 'Panasonic Toughbook Advertisement - Full',
+    videoUrl: 'https://www.youtube.com/embed/4H5JsJwet3A'
+  },
+  {
+    name: 'Video 5',
+    description: 'Panasonic FacePro i-TEMS (Thai) Advertisement - Full',
+    videoUrl: 'https://www.youtube.com/embed/JnZcdiHJ84Q'
+  },
+  {
+    name: 'Video 6',
+    description: 'Panasonic Toughbook Advertisement - Full',
+    videoUrl: 'https://www.youtube.com/embed/UPzYErBWpO8'
+  },
 ];
 
 const logos = [
   {
-    name: 'logo1',
+    name: 'SWAROVSKI',
     image: logo1
   },
   {
-    name: 'logo2',
+    name: 'INFOSEC',
     image: logo2
   },
   {
-    name: 'logo3',
-    image: logo1
+    name: 'SINOTRUK',
+    image: logo3
   },
   {
-    name: 'logo4',
-    image: logo2
+    name: 'IMCA',
+    image: logo4
   },
   {
-    name: 'logo5',
-    image: logo1
+    name: 'Panasonic Connect',
+    image: logo5
   },
   {
-    name: 'logo6',
-    image: logo2
+    name: 'And more',
+    image: WBlank
   },
-  {
-    name: 'logo7',
-    image: logo1
-  },
-  {
-    name: 'logo8',
-    image: logo2
-  },
+
 ]
 
 export default {
