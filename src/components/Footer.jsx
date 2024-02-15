@@ -8,11 +8,24 @@ const Footer = () => {
         {/* <h2>Contact Info</h2> */}
         <ul>
           <li>
-            <i></i> Based in: Thailand
+            <i></i> Contact
           </li>
           <li>
-            <i></i> Email:{" "}
-            <a href="mailto:pawin1110@gmail.com">pawin1110@gmail.com</a>
+            <i>-</i>
+          </li>
+          <li>
+            <i></i> {" "}
+            <a href="mailto:pawin1110@gmail.com">Email: pawin1110@gmail.com</a>
+          </li>
+          <li>
+            <i></i>
+            <a
+              href="https://www.linkedin.com/in/pawin-chandrathip/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn: Pawin Chandrathip
+            </a>
           </li>
           {/* <li>
             <i></i> Tel:&nbsp;<a href="tel:447875727734">+44 7875 727734</a>
@@ -21,14 +34,7 @@ const Footer = () => {
         <div className="col-span-1">
           <ul>
             <li>
-              <i></i> LinkedIn:&nbsp;
-              <a
-                href="https://www.linkedin.com/in/pawin-chandrathip/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Pawin Chandrathip
-              </a>
+              <i></i> Based in: Thailand
             </li>
             <li>
               <i></i> Business hours: Welcome
