@@ -15,7 +15,13 @@ const Footer = () => {
           </li>
           <li>
             <i></i> {" "}
-            <a href="mailto:pawin1110@gmail.com">Email: pawin1110@gmail.com</a>
+            <a href="mailto:pawin1110@gmail.com">Email</a>
+          </li>
+          <li>
+            <i></i>
+            <a>
+              Or
+            </a>
           </li>
           <li>
             <i></i>
