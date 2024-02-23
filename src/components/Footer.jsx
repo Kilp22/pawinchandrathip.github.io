@@ -71,9 +71,9 @@ const Footer = () => {
             >
               Back to Top
             </a>
-            .
+            
             <br />
-            <a>Website developed by Myself and Diego Garcia.</a>
+            <a>Website developed by Myself and Diego Garcia</a>
           </p>
         </div>
       </div>
