@@ -8,14 +8,17 @@ const Footer = () => {
         {/* <h2>Contact Info</h2> */}
         <ul>
           <li>
-            <i></i> Contact
+            <i></i> Contact ThaiVoiceHub
           </li>
           <li>
             <i>-</i>
           </li>
           <li>
             <i></i> {" "}
-            <a href="mailto:pawin1110@gmail.com">Email to Pawin</a>
+            
+            <a href="mailto:pawin1110@gmail.com"
+            className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300 ease-in-out"
+            >Email to Pawin</a>
           </li>
           <li>
             <i></i>
@@ -29,6 +32,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/pawin-chandrathip/"
               target="_blank"
               rel="noopener noreferrer"
+              className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300 ease-in-out"
             >
               LinkedIn: Pawin Chandrathip
             </a>
@@ -56,7 +60,15 @@ const Footer = () => {
           <p>
             {/* © 2022 SyncLingo360. All rights reserved. */}
             <br />
-            <a href="" rel="noopener noreferrer" target="_blank">
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault(); // Prevent the default anchor link behavior
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+              className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300 ease-in-out"
+              rel="noopener noreferrer"
+            >
               Back to Top
             </a>
             .

@@ -8,6 +8,9 @@ import ServicesSection from "./components/ServicesSection";
 import NavBar from "./components/NavBar";
 import VoiceoverShowcase from "./components/VoiceoverShowcase";
 import VideoSection from "./components/VideoSection";
+import Skills from "./components/SkillsSection";
+import Skills2 from "./components/SkillsSection2";
+import Previousworks from "./components/PreviousWorksSection";
 
 const App = () => {
   const contactRef = useRef(null);
@@ -25,6 +28,9 @@ const App = () => {
       <div id="voiceovers"><VoiceoverShowcase /></div>
       <VoiceoverShowcase isFemale={true} />
       <div id="videos"><VideoSection /></div>
+      <div id="Skills"><Skills /></div>
+      <div id="Skills2"><Skills2 /></div>
+      <div id="PreviousWorksSection"><Previousworks /></div>
       <div id="clients"><ClientsSection /></div>
       <div id="contact" ref={contactRef}><ContactSection /></div>
       <Footer />

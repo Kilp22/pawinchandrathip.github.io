@@ -8,8 +8,17 @@ import VoiceSample7 from './audio/Thai_Rumpelstiltskin.mp3';
 import VoiceSampleinfosec from './audio/INFOSEC.mp3';
 import VoiceSampleswarovski from './audio/Swarovski.mp3';
 import VoiceSampleimac from './audio/IMAC.mp3';
+import VoiceSamplePhuketCommercial from './audio/Thai_PhuketCommercial.mp3';
+
+import VoiceSampleFemale1 from './audio/(samplefemale1).mp3';
+import VoiceSampleFemale2 from './audio/(samplefemale1)_sample_1.mp3';
+import VoiceSampleFemale3 from './audio/(samplefemale1)_sample_2.mp3';
+import VoiceSampleFemale4 from './audio/(samplefemale3)_Jo.mp3';
+import VoiceSampleFemale5 from './audio/(samplefemale3)_Katy.mp3';
+import VoiceSampleFemale6 from './audio/(samplefemale3)_Vicky.mp3';
 // test
 
+import character0 from '../assets/Voiceover_Showcase/PhuketCommercial_resize.webp';
 import character1 from '../assets/Voiceover_Showcase/An_Unfortunate_Warlord_(2)_Cropped.webp';
 import character2 from '../assets/Voiceover_Showcase/Gang_Leader.webp';
 import character3 from '../assets/Voiceover_Showcase/General_Samurai_Cropped.webp';
@@ -17,6 +26,9 @@ import character4 from '../assets/Voiceover_Showcase/Poem_(2)_Cropped.webp';
 import character5 from '../assets/Voiceover_Showcase/Emotions_Cropped.webp';
 import character6 from '../assets/Voiceover_Showcase/Angry_Man_Cropped.webp';
 import character7 from '../assets/Voiceover_Showcase/Rumpelstiltskin_Cropped.webp';
+
+import characterfemale1 from '../assets/Voiceover_Showcase/Female(1)_cropped.webp';
+import characterfemale2 from '../assets/Voiceover_Showcase/Female(2)_cropped.webp';
 // import character8 from '../assets/Voiceover_Showcase/Gang_Leader.webp';
 // import character9 from '../assets/Voiceover_Showcase/Gang_Leader.webp';
 
@@ -86,6 +98,13 @@ const serviceAudioData = [
 
 const malevoiceovers = [
   {
+    name: '(TH) Commercial Demo',
+    description: 'A Phuket Commercial Demo',
+    audioUrl: VoiceSamplePhuketCommercial,
+    // audioUrl: '',
+    imageUrl: character0,
+  },
+  {
     name: '(TH) An Unfortunate Warlord',
     description: 'With his dumb right-hand man',
     audioUrl: VoiceSample1,
@@ -136,7 +155,7 @@ const malevoiceovers = [
     imageUrl: character6,
   },
   {
-    name: 'A Soldier and Rumpelstiltskin',
+    name: '(TH) A Soldier and Rumpelstiltskin',
     description: 'A Soldier found an elf singing happily',
     audioUrl: VoiceSample7,
     // audioUrl: 'https://drive.google.com/u/0/uc?id=1Er6tnmBQRY32i9V94tyWcyv-5HkR2S5r&export=download',
@@ -162,27 +181,50 @@ const malevoiceovers = [
 
 const femalevoiceovers = [
   {
-    name: '(TH) An Unfortunate Warlord',
-    description: 'With his dumb right-hand man',
-    // audioUrl: VoiceSample1,
-    audioUrl: 'https://drive.google.com/u/0/uc?id=1LrwVltpGXSu4Fvd13DViEMpvzrWNMjU7&export=download',
-    imageUrl: character1,
+    name: '(TH) Female Sample 1-1',
+    description: 'Game Commercial',
+    audioUrl: VoiceSampleFemale1,
+    // audioUrl: '',
+    imageUrl: characterfemale1,
   },
   {
-    name: '(EN) Gang Leader',
-    description: 'Motivating his gang members',
-    // audioUrl: VoiceSample2,
-    audioUrl: 'https://drive.google.com/u/0/uc?id=1SMpqNNzHwRmS1c3jtd6Xg8o5VvV59lkQ&export=download',
-    imageUrl: character2,
+    name: '(TH) Female Sample 1-2',
+    description: '*Warning High-Pitched, Many Characters',
+    audioUrl: VoiceSampleFemale2,
+    // audioUrl: '',
+    imageUrl: characterfemale1,
   },
   {
-    name: '(EN) General Warcry',
-    description: 'A Heroic Warcry Shout',
-    // audioUrl: VoiceSample3,
-    audioUrl: 'https://drive.google.com/u/0/uc?id=1PLwjaOrKSdmXVMtI8ZVLUDGos9HvWjDr&export=download',
+    name: '(TH) Female Sample 1-3',
+    description: 'Many Characters',
+    audioUrl: VoiceSampleFemale3,
+    // audioUrl: '',
     // The one below just an example that works.
     // audioUrl: 'https://on.soundcloud.com/JRZdc',
-    imageUrl: character3,
+    imageUrl: characterfemale1,
+  },
+  {
+    name: '(TH) Female Sample 3-1',
+    description: '',
+    audioUrl: VoiceSampleFemale4,
+    // audioUrl: '',
+    imageUrl: characterfemale2,
+  },
+  {
+    name: '(TH) Female Sample 3-2',
+    description: '',
+    audioUrl: VoiceSampleFemale5,
+    // audioUrl: '',
+    imageUrl: characterfemale2,
+  },
+  {
+    name: '(TH) Female Sample 3-3',
+    description: '',
+    audioUrl: VoiceSampleFemale6,
+    // audioUrl: '',
+    // The one below just an example that works.
+    // audioUrl: 'https://on.soundcloud.com/JRZdc',
+    imageUrl: characterfemale2,
   },
   // {
   //   name: '(TH) Poem',
@@ -269,6 +311,33 @@ const videoUrls = [
   },
 ];
 
+const previousworks = [
+  {
+    name: 'Previous work 1',
+    image: logo2
+  },
+  {
+    name: 'Previous work 2',
+    image: logo2
+  },
+  {
+    name: 'Previous work 3',
+    image: logo2
+  },
+  {
+    name: 'Previous work 4',
+    image: logo2
+  },
+  {
+    name: 'Previous work 5',
+    image: logo2
+  },
+  {
+    name: 'Previous work 6',
+    image: WBlank
+  },
+]
+
 const logos = [
   {
     name: 'SWAROVSKI',
@@ -301,6 +370,7 @@ export default {
   malevoiceovers,
   femalevoiceovers,
   videoUrls,
+  previousworks,
   logos,
   serviceAudioData
 };
