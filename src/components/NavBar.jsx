@@ -42,8 +42,14 @@ const NavBar = () => {
       <div className={`transition-all ease-in-out ${isMenuOpen ? 'bg-black bg-opacity-20' : ''}`}>
         <ul className={`flex flex-col items-center w-full ${isMenuOpen ? 'block' : 'hidden'}`}>
           <li><button onClick={() => scrollToSection('home')}>Home</button></li>
+          <li><button onClick={() => scrollToSection('about')}>About Me</button></li>
+          <li><button onClick={() => scrollToSection('services')}>Showcase</button></li>
           <li><button onClick={() => scrollToSection('voiceovers')}>Voiceovers</button></li>
           <li><button onClick={() => scrollToSection('videos')}>Videos</button></li>
+          <li><button onClick={() => scrollToSection('skills')}>Skills-Voiceover</button></li>
+          <li><button onClick={() => scrollToSection('skills2')}>Skills-Translation & Writing</button></li>
+          <li><button onClick={() => scrollToSection('previousWorksSection')}>My Other Previous Works</button></li>
+          <li><button onClick={() => scrollToSection('clients')}>Some of My Clients</button></li>
           <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
         </ul>
       </div>
