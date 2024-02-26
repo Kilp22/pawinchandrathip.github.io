@@ -17,10 +17,10 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10">
+    <nav className="fixed top-0 left-0 right-0 z-30">
       <div className="flex justify-between p-4 items-center">
         <img src={data.myLogo} className='w-12' alt="Logo" />
-        <button onClick={toggleMenu} className="z-20">
+        <button onClick={toggleMenu} className="z-40">
           {/* Hamburger Icon */}
           <svg
             className="w-6 h-6"
@@ -39,16 +39,16 @@ const NavBar = () => {
         </button>
       </div>
       {/* Menu Items */}
-      <div className={`transition-all ease-in-out ${isMenuOpen ? 'bg-black bg-opacity-20' : ''}`}>
-        <ul className={`flex flex-col items-center w-full ${isMenuOpen ? 'block' : 'hidden'}`}>
+      {/* Use fixed, inset-0 to cover the whole screen and flex for centering */}
+      <div className={`fixed inset-0 ${isMenuOpen ? 'bg-black bg-opacity-100 flex flex-col items-center justify-center text-2xl md:text-5xl leading-loose md:leading-loose' : 'hidden'}`}>
+        <ul>
           <li><button onClick={() => scrollToSection('home')}>Home</button></li>
           <li><button onClick={() => scrollToSection('about')}>About Me</button></li>
           <li><button onClick={() => scrollToSection('services')}>Showcase</button></li>
           <li><button onClick={() => scrollToSection('voiceovers')}>Voiceovers</button></li>
           <li><button onClick={() => scrollToSection('videos')}>Videos</button></li>
-          <li><button onClick={() => scrollToSection('skills')}>Skills-Voiceover</button></li>
-          <li><button onClick={() => scrollToSection('skills2')}>Skills-Translation & Writing</button></li>
-          <li><button onClick={() => scrollToSection('previousWorksSection')}>My Other Previous Works</button></li>
+          <li><button onClick={() => scrollToSection('skills')}>Skills</button></li>
+          <li><button onClick={() => scrollToSection('previousWorksSection')}>My Previous Works</button></li>
           <li><button onClick={() => scrollToSection('clients')}>Some of My Clients</button></li>
           <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
         </ul>

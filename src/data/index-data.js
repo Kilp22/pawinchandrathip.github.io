@@ -18,6 +18,9 @@ import VoiceSampleFemale5 from './audio/(samplefemale3)_Katy.mp3';
 import VoiceSampleFemale6 from './audio/(samplefemale3)_Vicky.mp3';
 // test
 
+
+// Images for Voice Samples imports
+
 import character0 from '../assets/Voiceover_Showcase/PhuketCommercial_resize.webp';
 import character1 from '../assets/Voiceover_Showcase/An_Unfortunate_Warlord_(2)_Cropped.webp';
 import character2 from '../assets/Voiceover_Showcase/Gang_Leader.webp';
@@ -32,17 +35,43 @@ import characterfemale2 from '../assets/Voiceover_Showcase/Female(2)_cropped.web
 // import character8 from '../assets/Voiceover_Showcase/Gang_Leader.webp';
 // import character9 from '../assets/Voiceover_Showcase/Gang_Leader.webp';
 
-// Logo imports
 
-import logo1 from '../assets/Logo_Clients/Swarovski.webp'
-import logo2 from '../assets/Logo_Clients/infosec-logo.webp'
-import logo3 from '../assets/Logo_Clients/SinoTruk-Logo.webp'
-import logo4 from '../assets/Logo_Clients/IMCA-logo.webp'
-import logo5 from '../assets/Logo_Clients/panasonic_connect_logo.webp'
+// Previous works Images imports
+import previouswork1 from '../assets/Previous_Work/AlchemyStars(1).webp';
+import previouswork2 from '../assets/Previous_Work/AlchemyStars(2).webp';
+import previouswork3 from '../assets/Previous_Work/AlchemyStars(3).webp';
+import previouswork4 from '../assets/Previous_Work/AlchemyStars(4).webp';
+import previouswork5 from '../assets/Previous_Work/BabyBus.webp';
+import previouswork6 from '../assets/Previous_Work/ProjectChrono.webp';
+import previouswork7 from '../assets/Previous_Work/CrazyChef(1).webp';
+import previouswork8 from '../assets/Previous_Work/CrazyChef(2).webp';
+import previouswork9 from '../assets/Previous_Work/DreamWorksTrollsPop.webp';
+import previouswork10 from '../assets/Previous_Work/LittlePandaPrincessParty(1).webp';
+import previouswork11 from '../assets/Previous_Work/LittlePandaPrincessParty(2).webp';
+import previouswork12 from '../assets/Previous_Work/OnePiece-UltimateBattle(1)(cropped).webp';
+import previouswork13 from '../assets/Previous_Work/OnePiece-UltimateBattle(2)(cropped).webp';
+import previouswork14 from '../assets/Previous_Work/Re-Legend.webp';
+import previouswork15 from '../assets/Previous_Work/SeaFighterReborn.webp';
+import previouswork16 from '../assets/Previous_Work/TileMaster.webp';
+import previouswork17 from '../assets/Previous_Work/HotelFrenzy.webp';
+import previouswork18 from '../assets/Previous_Work/MyRestaurantCookingHome.webp';
+import previouswork19 from '../assets/Previous_Work/MyRestaurantCookingHome(2)(cropped).webp';
+import previouswork20 from '../assets/Previous_Work/AnnaandTommy,arainyDay.webp';
+import previouswork21 from '../assets/Previous_Work/SuperSaiyanClash(cropped).webp';
+import previouswork22 from '../assets/Previous_Work/SuperSaiyan-FinalConflict(1).webp';
+import previouswork23 from '../assets/Previous_Work/SuperSaiyan-FinalConflict(2).webp';
+import previouswork24 from '../assets/Previous_Work/SuperSaiyan-FinalConflict(3).webp';
+import previouswork25 from '../assets/Previous_Work/SuperSaiyan-FinalConflict(4).webp';
+import previouswork26 from '../assets/Previous_Work/SuperSaiyan-FinalConflict(5).webp';
+import previouswork27 from '../assets/Previous_Work/AndMore-removebg.webp';
 
-import WBlank from '../assets/Logo_Clients/Blank-rectangle.webp'
 
-// Services Image imports
+
+
+
+
+
+// Services Images imports
 
 import infosecpic1 from '../assets/ServiceSection/INFOSEC1.webp';
 import infosecpic2 from '../assets/ServiceSection/INFOSEC2.webp';
@@ -60,6 +89,20 @@ import dyinglight1 from '../assets/ServiceSection/dyinglight1.webp';
 import dyinglight2 from '../assets/ServiceSection/dyinglight2.webp';
 import dyinglight3 from '../assets/ServiceSection/dyinglight3.webp';
 import dyinglight4 from '../assets/ServiceSection/dyinglight4.webp';
+
+// Logo imports
+
+import logo1 from '../assets/Logo_Clients/Swarovski.webp'
+import logo2 from '../assets/Logo_Clients/infosec-logo.webp'
+import logo3 from '../assets/Logo_Clients/SinoTruk-Logo.webp'
+import logo4 from '../assets/Logo_Clients/IMCA-logo.webp'
+import logo5 from '../assets/Logo_Clients/panasonic_connect_logo.webp'
+import logo6 from '../assets/Logo_Clients/tourdogStudioLogo(bgremoved).webp'
+import logo7 from '../assets/Logo_Clients/DreamWorksLogo.webp'
+import logo8 from '../assets/Logo_Clients/BabyBusLogo.webp'
+import logo9 from '../assets/Logo_Clients/MagnusGamesStudioLogo(cropped).webp'
+
+import WBlank from '../assets/Logo_Clients/Blank-rectangle.webp'
 
 const serviceAudioData = [
   {
@@ -280,65 +323,212 @@ const femalevoiceovers = [
 
 const videoUrls = [
   {
-    name: 'Video 1',
-    description: 'Showreels',
+    name: 'Video 1 - Showreels',
+    description: 'Collection of My Works',
     videoUrl: 'https://www.youtube.com/embed/U_PdMAoY7G0'
   },
   {
-    name: 'Video 2',
-    description: 'Privacy Devil Advertisement - Full',
+    name: 'Video 2 - Privacy Devil Advertisement - Full',
+    description: '2 Character voices & Narrator for an Ads',
     videoUrl: 'https://www.youtube.com/embed/Px32gRZG80k'
   },
   {
-    name: 'Video 3',
-    description: 'Bedtime Story - Rumplestiltskin - Full',
+    name: 'Video 3 - Bedtime Story - Rumplestiltskin - Full',
+    description: 'Multiple Male Characters voices',
     videoUrl: 'https://www.youtube.com/embed/Utn0SAXbTl8'
   },
   {
-    name: 'Video 4',
-    description: 'Panasonic Toughbook Advertisement - Full',
+    name: 'Video 4 - IMAC - Working At Height',
+    description: 'Translate and Voiceover for Safety Course Videos',
     videoUrl: 'https://www.youtube.com/embed/4H5JsJwet3A'
   },
   {
-    name: 'Video 5',
-    description: 'Panasonic FacePro i-TEMS (Thai) Advertisement - Full',
+    name: 'Video 5 - Panasonic FacePro i-TEMS (Thai) Advertisement - Full',
+    description: 'Translate and Voiceover for Panasonic FacePro i-TEMS',
     videoUrl: 'https://www.youtube.com/embed/JnZcdiHJ84Q'
   },
   {
-    name: 'Video 6',
-    description: 'Panasonic Toughbook Advertisement - Full',
+    name: 'Video 6 - Panasonic Toughbook Advertisement - Full',
+    description: 'Translate and Voiceover for Panasonic Toughbook',
     videoUrl: 'https://www.youtube.com/embed/UPzYErBWpO8'
   },
 ];
 
 const previousworks = [
   {
-    name: 'Previous work 1',
-    image: logo2
+    id: "pw1",
+    name: 'Alchemy Stars',
+    description: '',
+    image: previouswork1
   },
   {
-    name: 'Previous work 2',
-    image: logo2
+    id: "pw2",
+    name: 'Alchemy Stars',
+    description: '',
+    image: previouswork2
   },
   {
-    name: 'Previous work 3',
-    image: logo2
+    id: "pw3",
+    name: 'Alchemy Stars',
+    description: '',
+    image: previouswork3
   },
   {
-    name: 'Previous work 4',
-    image: logo2
+    id: "pw4",
+    name: 'Alchemy Stars',
+    description: '',
+    image: previouswork4
   },
   {
-    name: 'Previous work 5',
-    image: logo2
+    id: "pw5",
+    name: 'BabyBus',
+    description: '',
+    image: previouswork5
   },
   {
-    name: 'Previous work 6',
-    image: WBlank
+    id: "pw6",
+    name: 'Project Chrono',
+    description: '',
+    image: previouswork6
+  },
+  {
+    id: "pw7",
+    name: 'Crazy Chef',
+    description: '',
+    image: previouswork7
+  },
+  {
+    id: "pw8",
+    name: 'Crazy Chef',
+    description: '',
+    image: previouswork8
+  },
+  {
+    id: "pw9",
+    name: 'DreamWorks Trolls Pop',
+    description: '',
+    image: previouswork9
+  },
+  {
+    id: "pw10",
+    name: 'Princess Party by Babybus',
+    description: '',
+    image: previouswork10
+  },
+  {
+    id: "pw11",
+    name: 'Princess Party by Babybus',
+    description: '',
+    image: previouswork11
+  },
+  {
+    id: "pw12",
+    name: 'One Piece Ultimate Battle',
+    description: '',
+    image: previouswork12
+  },
+  {
+    id: "pw13",
+    name: 'One Piece Ultimate Battle',
+    description: '',
+    image: previouswork13
+  },
+  {
+    id: "pw14",
+    name: 'Re:Legend',
+    description: '',
+    image: previouswork14
+  },
+  {
+    id: "pw15",
+    name: 'Sea Fighter Reborn',
+    description: '',
+    image: previouswork15
+  },
+  {
+    id: "pw16",
+    name: 'Tile Master',
+    description: '',
+    image: previouswork16
+  },
+  {
+    id: "pw17",
+    name: 'Hotel Frenzy',
+    description: '',
+    image: previouswork17
+  },
+  {
+    id: "pw18",
+    name: 'My Restaurant',
+    description: '',
+    image: previouswork18
+  },
+  {
+    id: "pw19",
+    name: 'My Restaurant',
+    description: '',
+    image: previouswork19
+  },
+  {
+    id: "pw20",
+    name: 'Anna and Tommy, A Rainy Day',
+    description: '',
+    image: previouswork20
+  },
+  {
+    id: "pw21",
+    name: 'Super Saiyan Clash',
+    description: '',
+    image: previouswork21
+  },
+  {
+    id: "pw22",
+    name: 'Super Saiyan - Final Conflict',
+    description: '',
+    image: previouswork22
+  },
+  {
+    id: "pw23",
+    name: 'Super Saiyan - Final Conflict',
+    description: '',
+    image: previouswork23
+  },
+  {
+    id: "pw24",
+    name: 'Super Saiyan - Final Conflict',
+    description: '',
+    image: previouswork24
+  },
+  {
+    id: "pw25",
+    name: 'Super Saiyan - Final Conflict',
+    description: '',
+    image: previouswork25
+  },
+  {
+    id: "pw26",
+    name: 'Super Saiyan - Final Conflict',
+    description: '',
+    image: previouswork26
+  },
+  {
+    id: "pw27",
+    name: 'And more',
+    description: '',
+    image: previouswork27
   },
 ]
 
+
 const logos = [
+  {
+    name: 'DreamWorks',
+    image: logo7
+  },
+  {
+    name: 'Panasonic Connect',
+    image: logo5
+  },
   {
     name: 'SWAROVSKI',
     image: logo1
@@ -355,15 +545,23 @@ const logos = [
     name: 'IMCA',
     image: logo4
   },
+
   {
-    name: 'Panasonic Connect',
-    image: logo5
+    name: 'Tour Dog Studio',
+    image: logo6
+  },
+  {
+    name: 'BabyBus',
+    image: logo8
+  },
+  {
+    name: 'Magnus Games Studio',
+    image: logo9
   },
   {
     name: 'And more',
     image: WBlank
   },
-
 ]
 
 export default {

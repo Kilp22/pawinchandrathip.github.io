@@ -11,7 +11,7 @@ const ClientsSection = () => {
   return (
     <div className="w-full py-20 flex flex-col items-center justify-center text-white">
       <div className='flex flex-col justify-center items-center'>
-        <h2 className='text-3xl md:text-[45px] pb-5'>Some of My Clients</h2>
+        <h2 className='text-3xl md:text-[45px] pb-5'>Clients Projects I Contributed To</h2>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center items-center w-full gap-8 px-4 md:px-20'>
         {data.logos.map((logo) => (
@@ -19,7 +19,7 @@ const ClientsSection = () => {
             <img 
               src={logo.image} 
               className='w-56 cursor-pointer' 
-              alt={logo.name} 
+              alt={`My Client, ${logo.name}`} 
               onClick={() => handleImageClick(logo.image)} 
             />
             <h3 className='text-center'>{logo.name}</h3>

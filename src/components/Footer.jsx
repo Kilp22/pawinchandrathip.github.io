@@ -2,13 +2,13 @@ import data from '../assets/index-assets';
 
 const Footer = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-red-500 px-[50px] py-[30px] text-base">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-slate-800 px-[50px] py-[30px] text-base">
       <img src={data.myLogo} className='w-36' />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         {/* <h2>Contact Info</h2> */}
         <ul>
           <li>
-            <i></i> Contact ThaiVoiceHub
+            <i></i> Contact Thai Voice Hub
           </li>
           <li>
             <i>-</i>
@@ -17,7 +17,7 @@ const Footer = () => {
             <i></i> {" "}
             
             <a href="mailto:pawin1110@gmail.com"
-            className="inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-300 ease-in-out"
+            className="inline-block px-4 py-2 bg-green-500 text-white rounded hover:bg-blue-700 transition duration-300 ease-in-out"
             >Email to Pawin</a>
           </li>
           <li>
