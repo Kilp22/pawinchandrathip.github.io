@@ -48,8 +48,8 @@ const NavBar = () => {
           <li><button onClick={() => scrollToSection('voiceovers')}>Voiceovers</button></li>
           <li><button onClick={() => scrollToSection('videos')}>Videos</button></li>
           <li><button onClick={() => scrollToSection('skills')}>Skills</button></li>
-          <li><button onClick={() => scrollToSection('previousWorksSection')}>My Previous Works</button></li>
-          <li><button onClick={() => scrollToSection('clients')}>Some of My Clients</button></li>
+          <li><button onClick={() => scrollToSection('previousWorksSection')}>Projects I Contributed</button></li>
+          <li><button onClick={() => scrollToSection('clients')}>Clients Projects</button></li>
           <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
         </ul>
       </div>
