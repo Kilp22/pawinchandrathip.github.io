@@ -26,6 +26,8 @@ import myservice2 from '../assets/MyServices/AudioProduction.webp';
 import myservice3 from '../assets/MyServices/Translation.webp';
 import myservice4 from '../assets/MyServices/ScriptingCreation.webp';
 import myservice5 from '../assets/MyServices/EducationalNarration.webp';
+import myservice6 from '../assets/MyServices/ThaiVoiceHub.webp';
+
 
 // Images for Voice Samples imports
 
@@ -149,6 +151,12 @@ const myservices = [
     description: 'Documentaries, Educational Courses, Training Programs and more.',
     // Education transcends the classroom with our engaging narration services. We provide the perfect auditory backdrop for your educational content and documentaries. Specializing in cultural narration, we offer a gateway to the world of Buddhism through audiobooks and teachings that are both informative and spiritually enriching.
     image: myservice5
+  },
+  {
+    name: 'Your Thai Voice Hub',
+    description: 'Let me be your one stop service to convert your content into Thai or English.',
+    // Education transcends the classroom with our engaging narration services. We provide the perfect auditory backdrop for your educational content and documentaries. Specializing in cultural narration, we offer a gateway to the world of Buddhism through audiobooks and teachings that are both informative and spiritually enriching.
+    image: myservice6
   },
 ]
 
