@@ -19,6 +19,14 @@ import VoiceSampleFemale6 from './audio/(samplefemale3)_Vicky.mp3';
 // test
 
 
+// Images for My Services imports
+
+import myservice1 from '../assets/MyServices/Voiceover.webp';
+import myservice2 from '../assets/MyServices/AudioProduction.webp';
+import myservice3 from '../assets/MyServices/Translation.webp';
+import myservice4 from '../assets/MyServices/ScriptingCreation.webp';
+import myservice5 from '../assets/MyServices/EducationalNarration.webp';
+
 // Images for Voice Samples imports
 
 import character0 from '../assets/Voiceover_Showcase/PhuketCommercial_resize.webp';
@@ -101,8 +109,51 @@ import logo6 from '../assets/Logo_Clients/tourdogStudioLogo(bgremoved).webp'
 import logo7 from '../assets/Logo_Clients/DreamWorksLogo.webp'
 import logo8 from '../assets/Logo_Clients/BabyBusLogo.webp'
 import logo9 from '../assets/Logo_Clients/MagnusGamesStudioLogo(cropped).webp'
+import logo10 from '../assets/Logo_Clients/HiggsStudioLogo(Cropped)-removebg.webp'
 
 import WBlank from '../assets/Logo_Clients/Blank-rectangle.webp'
+
+
+
+
+
+const myservices = [
+  {
+    name: 'Voiceover Production',
+    description: 'Bring your script to life with our diverse range of voiceover talents.',
+    // E-learning Module, Corporate Training video, punchy commercial, gaming characters, Audiobooks
+    // Bring your script to life with our diverse range of voiceover talents. Whether its for an e-learning module, a corporate training video, a punchy commercial, an animated feature, or gaming characters, our voices are your bridge to the audience. We also specialize in narrations that capture the essence of your audiobooks and documentaries, with a particular charm for childrens stories.
+    image: myservice1
+  },
+  {
+    name: 'Audio and Video Production',
+    description: 'Syncing with Original English videos or other languages.',
+    // Experience seamless integration of sound and visuals with our expert audio editing services. We sync crisp, clear voiceovers perfectly to your videos, enhancing viewer engagement. Our video editing skills ensure that your message is not just heard, but also seen and felt, delivering content that leaves a lasting impact.
+    image: myservice2
+  },
+  {
+    name: 'Translation & Localization Services',
+    description: 'Convert your content from English to Thai or vice versa.',
+    // Technical Translations, Marketing Material, Transcription/Proofreading, Gaming Localization.
+    // Communicate without borders with our English-Thai and Thai-English translation services. We specialize in gaming localization, technical translations, and marketing material that resonates with your target demographic. Our transcription and proofreading services uphold the highest standards of accuracy, ensuring your message remains clear in every language.
+    image: myservice3
+  },
+  {
+    name: 'Scripting & Content Creation',
+    description: 'Refine Voiceover Scripts, Proofreading.',
+    // Craft compelling narratives with our scripting and content creation expertise. We refine voiceover scripts to perfection and excel in creating and voicing content steeped in the rich tapestry of Buddhism. Let us elevate your project with content that not only informs but also enlightens.
+    image: myservice4
+  },
+  {
+    name: 'Narration for your Videos',
+    description: 'Documentaries, Educational Courses, Training Programs and more.',
+    // Education transcends the classroom with our engaging narration services. We provide the perfect auditory backdrop for your educational content and documentaries. Specializing in cultural narration, we offer a gateway to the world of Buddhism through audiobooks and teachings that are both informative and spiritually enriching.
+    image: myservice5
+  },
+]
+
+
+
 
 const serviceAudioData = [
   {
@@ -116,7 +167,7 @@ const serviceAudioData = [
   {
     id: "02",
     title: 'SWAROVSKI',
-    description: 'Thai Voiceover - Fashion and jewelry history - Styling Specialist training program of Swarovski.',
+    description: 'Thai Voiceover - Fashion and jewelry history - Voiceover for Styling Specialist training program of Swarovski.',
     audioUrl: VoiceSampleswarovski,
     // audioUrl: 'https://drive.google.com/u/0/uc?id=1vYOMy-ATNN5-ZccW9pRl6f10Eee-IobC&export=download',
     images: [swarovski1, swarovski2, swarovski3, swarovski4],
@@ -358,163 +409,163 @@ const previousworks = [
   {
     id: "pw1",
     name: 'Alchemy Stars',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork1
   },
   {
     id: "pw2",
     name: 'Alchemy Stars',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork2
   },
   {
     id: "pw3",
     name: 'Alchemy Stars',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork3
   },
   {
     id: "pw4",
     name: 'Alchemy Stars',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork4
   },
   {
     id: "pw5",
     name: 'BabyBus',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork5
   },
   {
     id: "pw6",
     name: 'Project Chrono',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork6
   },
   {
     id: "pw7",
     name: 'Crazy Chef',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork7
   },
   {
     id: "pw8",
     name: 'Crazy Chef',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork8
   },
   {
     id: "pw9",
     name: 'DreamWorks Trolls Pop',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork9
   },
   {
     id: "pw10",
     name: 'Princess Party by Babybus',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork10
   },
   {
     id: "pw11",
     name: 'Princess Party by Babybus',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork11
   },
   {
     id: "pw12",
     name: 'One Piece Ultimate Battle',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork12
   },
   {
     id: "pw13",
     name: 'One Piece Ultimate Battle',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork13
   },
   {
     id: "pw14",
     name: 'Re:Legend',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork14
   },
   {
     id: "pw15",
     name: 'Sea Fighter Reborn',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork15
   },
   {
     id: "pw16",
     name: 'Tile Master',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork16
   },
   {
     id: "pw17",
     name: 'Hotel Frenzy',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork17
   },
   {
     id: "pw18",
     name: 'My Restaurant',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork18
   },
   {
     id: "pw19",
     name: 'My Restaurant',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork19
   },
   {
     id: "pw20",
     name: 'Anna and Tommy, A Rainy Day',
-    description: '',
+    description: 'Translation into Thai & Voiceover',
     image: previouswork20
   },
   {
     id: "pw21",
     name: 'Super Saiyan Clash',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork21
   },
   {
     id: "pw22",
     name: 'Super Saiyan - Final Conflict',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork22
   },
   {
     id: "pw23",
     name: 'Super Saiyan - Final Conflict',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork23
   },
   {
     id: "pw24",
     name: 'Super Saiyan - Final Conflict',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork24
   },
   {
     id: "pw25",
     name: 'Super Saiyan - Final Conflict',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork25
   },
   {
     id: "pw26",
     name: 'Super Saiyan - Final Conflict',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork26
   },
   {
     id: "pw27",
     name: 'And more',
-    description: '',
+    description: 'Translation into Thai',
     image: previouswork27
   },
 ]
@@ -559,12 +610,17 @@ const logos = [
     image: logo9
   },
   {
+    name: 'Higgs Studio',
+    image: logo10
+  },
+  {
     name: 'And more',
     image: WBlank
   },
 ]
 
 export default {
+  myservices,
   malevoiceovers,
   femalevoiceovers,
   videoUrls,

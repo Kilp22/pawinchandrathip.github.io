@@ -42,7 +42,7 @@ const ServicesSectionItem = ({ id, title, description, images, audioUrl }) => {
         {/* Text */}
         <div className={`flex flex-col justify-center w-full md:w-1/2 text-left p-4`}>
           <h3 className="text-2xl md:text-[4rem] mt-2">{title}</h3>
-          <p className="text-1xl md:text-[2rem]">{description}</p>
+          <p className="text-1xl md:text-[2rem] mt-6 sd:mt-1">{description}</p>
           {audioUrl && (
             <div className="mt-4 w-full md:w-1/2">
               <audio controls className="w-full">

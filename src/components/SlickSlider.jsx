@@ -28,7 +28,8 @@ const SlickSlider = ({ previousworks }) => {
             />
             <div className="text-center">
               <p className="text-sm">
-              {slide.name}
+              {slide.name}<br />
+              {slide.description}
               </p>
             </div>
           </SwiperSlide>

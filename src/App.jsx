@@ -11,6 +11,7 @@ import VideoSection from "./components/VideoSection";
 import SkillsSection from "./components/SkillsSection";
 import SkillsSection2 from "./components/SkillsSection2";
 import Previousworks from "./components/PreviousWorksSection";
+import MyservicesSection from "./components/Myservices";
 
 const App = () => {
   const contactRef = useRef(null);
@@ -24,6 +25,7 @@ const App = () => {
       <NavBar />
       <div id="home"><Hero /></div>
       <div id="about"><AboutMe /></div>
+      <div id="Myservices"><MyservicesSection /></div>
       <div id="services"><ServicesSection /></div>
       <div id="voiceovers"><VoiceoverShowcase /></div>
       <VoiceoverShowcase isFemale={true} />

@@ -15,7 +15,7 @@ const PreviousWorksSection = () => {
       <div className='flex flex-col justify-center items-center'>
         <h2 className='text-3xl md:text-[45px] pb-5'>Projects I Contributed To</h2>
       </div>
-      <div className="w-[100%] md:w-[50%]">
+      <div className="mt-10 w-[100%] md:w-[50%]">
         <SlickSlider previousworks={data.previousworks} /> 
         {/* <SlickSlider />  */}
 
