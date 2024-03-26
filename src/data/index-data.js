@@ -100,6 +100,23 @@ import dyinglight2 from '../assets/ServiceSection/dyinglight2.webp';
 import dyinglight3 from '../assets/ServiceSection/dyinglight3.webp';
 import dyinglight4 from '../assets/ServiceSection/dyinglight4.webp';
 
+// Testimonials
+
+import testimonial1 from '../assets/Testimonial/1.webp'
+import testimonial2 from '../assets/Testimonial/2.webp'
+import testimonial3 from '../assets/Testimonial/3.webp'
+import testimonial4 from '../assets/Testimonial/4.webp'
+import testimonial5 from '../assets/Testimonial/5.webp'
+import testimonial6 from '../assets/Testimonial/6.webp'
+import testimonial7 from '../assets/Testimonial/7.webp'
+import testimonial8 from '../assets/Testimonial/8.webp'
+import testimonial9 from '../assets/Testimonial/9.webp'
+import testimonial10 from '../assets/Testimonial/10.webp'
+import testimonial11 from '../assets/Testimonial/11.webp'
+import testimonial12 from '../assets/Testimonial/12.webp'
+import testimonial13 from '../assets/Testimonial/13.webp'
+
+
 // Logo imports
 
 import logo1 from '../assets/Logo_Clients/Swarovski.webp'
@@ -578,6 +595,86 @@ const previousworks = [
   },
 ]
 
+const testimonials = [
+  {
+    NoID: '1',
+    name: '',
+    description: 'Pawin is very attentive, professional and delivers work in a timely manner. Highly recommend him.',
+    image: testimonial1
+  },
+  {
+    NoID: '2',
+    name: '',
+    description: 'Great experience. Looking forward to the next project.',
+    image: testimonial2
+  },
+  {
+    NoID: '3',
+    name: '',
+    description: 'Great experience with Pawin Chandrathip. He delivered his recording extremely fast and the quality is very good. Great Thai voice over and great pronunciation of the English words as well. I highly recommend him.',
+    image: testimonial3
+  },
+  {
+    NoID: '4',
+    name: '',
+    description: 'A very trustworthy and cooperative freelancer, looking forward to work with him next time.',
+    image: testimonial4
+  },
+  {
+    NoID: '5',
+    name: '',
+    description: 'Pawin did a great job in translation and voice over. He also gives feedback & suggestion to achieve better result. He is also communicative and very easy to work with. Will surely hire him again for the next suitable project.',
+    image: testimonial5
+  },
+  {
+    NoID: '6',
+    name: '',
+    description: 'Pawin was a pleasure to work with. He definitely cared about delivering the very best end product and maintained good communication throughout the project.',
+    image: testimonial6
+  },
+  {
+    NoID: '7',
+    name: '',
+    description: 'It is my great pleasure to write this testimonial for Pawin. I have had the pleasure of viewing Pawin professional development, and can state with confidence that he is a motivated and responsible person with a high degree of integrity. The very best part of him is his patience in answering my queries. His response to my emails is superfast and he is known for his quick turnaround. I am very happy to be working with Pawin and will continue to work with him.',
+    image: testimonial7
+  },
+  {
+    NoID: '8',
+    name: '',
+    description: 'I had a excellent collaboration with Pawin, who helped me with translation and voice over of 4 e-books for kids. He was always available and respect the datelines. He additionally helped us with other process of creating the books. I highly recommend him for his translation and voice over works and hope that we will have possibility to collaborate again in near future.',
+    image: testimonial8
+  },
+  {
+    NoID: '9',
+    name: '',
+    description: 'Good communication, knowledge and experience',
+    image: testimonial9
+  },
+  {
+    NoID: '10',
+    name: '',
+    description: 'Very perfect dubbing, I hope to cooperate in the future, it is worth recommending',
+    image: testimonial10
+  },
+  {
+    NoID: '11',
+    name: '',
+    description: 'Professional, did exactly as he was asked for in the best way possible. Nice to work with.',
+    image: testimonial11
+  },
+  {
+    NoID: '12',
+    name: '',
+    description: 'Nailed the tone I was looking for on the first try.',
+    image: testimonial12
+  },
+  {
+    NoID: '13',
+    name: 'Overall review score from Fiverr',
+    description: 'Overall review score of 4.9 stars out of 5 stars',
+    image: testimonial13
+  },
+]
 
 const logos = [
   {
@@ -634,5 +731,6 @@ export default {
   videoUrls,
   previousworks,
   logos,
+  testimonials,
   serviceAudioData
 };

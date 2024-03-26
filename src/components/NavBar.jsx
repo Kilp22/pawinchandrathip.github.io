@@ -40,15 +40,17 @@ const NavBar = () => {
       </div>
       {/* Menu Items */}
       {/* Use fixed, inset-0 to cover the whole screen and flex for centering */}
-      <div className={`fixed inset-0 ${isMenuOpen ? 'bg-black bg-opacity-100 flex flex-col items-center justify-center text-2xl md:text-5xl leading-loose md:leading-loose' : 'hidden'}`}>
+      <div className={`fixed inset-0 ${isMenuOpen ? 'bg-black bg-opacity-100 flex flex-col items-center justify-center text-2xl md:text-4xl leading-loose md:leading-loose' : 'hidden'}`}>
         <ul>
           <li><button onClick={() => scrollToSection('home')}>Home</button></li>
           <li><button onClick={() => scrollToSection('about')}>About Me</button></li>
+          <li><button onClick={() => scrollToSection('Myservices')}>My Services</button></li>
           <li><button onClick={() => scrollToSection('services')}>Showcase</button></li>
           <li><button onClick={() => scrollToSection('voiceovers')}>Voiceovers</button></li>
           <li><button onClick={() => scrollToSection('videos')}>Videos</button></li>
           <li><button onClick={() => scrollToSection('skills')}>Skills</button></li>
           <li><button onClick={() => scrollToSection('previousWorksSection')}>Projects I Contributed</button></li>
+          <li><button onClick={() => scrollToSection('mytestimonials')}>Testimonials</button></li>
           <li><button onClick={() => scrollToSection('clients')}>Clients Projects</button></li>
           <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
         </ul>

@@ -12,6 +12,7 @@ import SkillsSection from "./components/SkillsSection";
 import SkillsSection2 from "./components/SkillsSection2";
 import Previousworks from "./components/PreviousWorksSection";
 import MyservicesSection from "./components/Myservices";
+import MyTestimonials from "./components/Testimonials";
 
 const App = () => {
   const contactRef = useRef(null);
@@ -33,6 +34,7 @@ const App = () => {
       <div id="skills"><SkillsSection /></div>
       <div id="skills2"><SkillsSection2 /></div>
       <div id="previousWorksSection"><Previousworks /></div>
+      <div id="mytestimonials"><MyTestimonials /></div>
       <div id="clients"><ClientsSection /></div>
       <div id="contact" ref={contactRef}><ContactSection /></div>
       <Footer />
