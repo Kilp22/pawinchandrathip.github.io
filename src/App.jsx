@@ -1,6 +1,4 @@
 import { useRef } from 'react';
-import { useEffect } from 'react';
-import ReactGA from 'react-ga';
 import ClientsSection from "./components/ClientsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
@@ -22,13 +20,6 @@ const App = () => {
   // const scrollToContact = () => {
   //   contactRef.current.scrollIntoView({ behavior: 'smooth' });
   // };
-
-  useEffect(() => {
-    // Replace 'YOUR_TRACKING_ID' with your actual Google Analytics tracking ID
-    ReactGA.initialize('G-5BBQHS0LKB');
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
 
   return (
     <div className="bg-teal-600 text-white">
