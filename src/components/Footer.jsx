@@ -16,7 +16,7 @@ const Footer = () => {
           <li>
             <i></i> {" "}
             
-            <a href="mailto:pawin1110@gmail.com"
+            <a href="mailto:pawin@thaivoicehub.com"
             className="inline-block px-4 py-2 bg-green-500 text-white rounded hover:bg-blue-700 transition duration-300 ease-in-out"
             >Email to Pawin</a>
           </li>
