@@ -14,7 +14,7 @@ const MyTestimonials = () => {
         <h2 className='text-3xl md:text-[60px] font-bold'>Testimonials</h2><br /><br />
         <h3 className='text-1xl md:text-[20px] pb-1 font-bold'>From Upwork and Fiverr</h3><br />
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-items-center items-center w-full gap-y-0 gap-x-0 px-4 md:px-20'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-items-center items-center w-full gap-y-10 gap-x-0 px-4 md:px-20'>
         {data.testimonials.map((testimonials) => (
           <div key={testimonials.name} className='flex flex-col items-center w-80 h-40 justify-center'>
             <img 
