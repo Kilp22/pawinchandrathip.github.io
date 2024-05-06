@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import data from '../assets/index-assets';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-30">
+    <nav className="fixed top-0 left-0 right-0 z-30 bg-black">
       <div className="flex justify-between p-4 items-center">
         <img src={data.myLogo} className='w-12' alt="Logo" />
         <button onClick={toggleMenu} className="z-40">
@@ -42,7 +43,8 @@ const NavBar = () => {
       {/* Use fixed, inset-0 to cover the whole screen and flex for centering */}
       <div className={`fixed inset-0 ${isMenuOpen ? 'bg-black bg-opacity-100 flex flex-col items-center justify-center text-2xl md:text-4xl leading-loose md:leading-loose' : 'hidden'}`}>
         <ul>
-          <li><button onClick={() => scrollToSection('home')}>Home</button></li>
+          <Link to="/" className="block">Home</Link>
+          <Link to="/thai-voiceover" className="nav-link">Thai Voiceover</Link>
           <li><button onClick={() => scrollToSection('about')}>About Me</button></li>
           <li><button onClick={() => scrollToSection('Myservices')}>My Services</button></li>
           <li><button onClick={() => scrollToSection('services')}>Showcase</button></li>
