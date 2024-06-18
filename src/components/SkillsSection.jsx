@@ -5,27 +5,10 @@ const SkillsSection = () => {
   const [showSecondLine, setShowSecondLine] = useState(false);
   const sectionRef = useRef(null); // Ref for the Skills section
 
-  const handleScroll = () => {
-    if (sectionRef.current) {
-      const sectionTop = sectionRef.current.getBoundingClientRect().top;
-      const triggerPoint = window.innerHeight / 2; // Trigger halfway through the screen
-
-      if (sectionTop <= triggerPoint) {
-        setShowFirstLine(true);
-        setTimeout(() => setShowSecondLine(true), 400); // Delay for second line
-      } else {
-        setShowFirstLine(false);
-        setShowSecondLine(false);
-      }
-    }
-  };
-
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    // Trigger the animation when the component mounts
+    setShowFirstLine(true);
+    setTimeout(() => setShowSecondLine(true), 400); // Delay for second line
   }, []);
 
   return (

@@ -145,8 +145,8 @@ const myservices = [
     image: myservice1
   },
   {
-    name: 'Audio and Video Production',
-    description: 'Syncing with Original English videos or other languages.',
+    name: 'Audio and Video Editing',
+    description: 'Editing and Syncing with Original English videos or other languages.',
     // Experience seamless integration of sound and visuals with our expert audio editing services. We sync crisp, clear voiceovers perfectly to your videos, enhancing viewer engagement. Our video editing skills ensure that your message is not just heard, but also seen and felt, delivering content that leaves a lasting impact.
     image: myservice2
   },
